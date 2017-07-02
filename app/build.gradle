@@ -28,6 +28,6 @@ dependencies {
     compile 'com.squareup.retrofit2:retrofit:2.0.2'
     // Retrofit库
 
-    compile 'com.squareup.okhttp3:okhttp:3.1.2'
-    // Okhttp库
+//    compile 'com.squareup.okhttp3:okhttp:3.1.2'
+//    // Okhttp库
 }

@@ -44,7 +44,7 @@ public class PostRequest extends AppCompatActivity {
             public void onResponse(Call<Translation1> call, Response<Translation1> response) {
                 // 请求处理,输出结果
                 // 输出翻译的内容
-                System.out.println(response.body().getTranslateResult().get(0).get(0).getTgt());
+                System.out.println("翻译是："+ response.body().getTranslateResult().get(0).get(0).getTgt());
             }
 
             //请求失败时回调
